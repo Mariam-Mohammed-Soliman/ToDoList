@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-color: rgb(144 234 184);
+  margin: 5rem auto;
+  width: 40%;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 1px #34a585;
+}
+
+.App .header .h1{
+  font-size: 3rem;
+  color:green;
+}
+
+
+.btnFilters .btn,
+.btnFilters .btn:hover{
+  width: 20%;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.btnFilters .allBtn{
+  background-color: #2d6d5b;
+}
+
+.btnFilters .allBtn:hover{
+  background-color: #3C9179;
+}
+.btnFilters .completeBtn{
+  background-color: #40ba65;
+}
+
+.btnFilters .completeBtn:hover{
+  background-color: #64C982;
+}
+
+.allCompBtn{
+  background-color: #18312a !important;
+  color:white !important;
+}
+.allCompBtn:hover{
+  background-color: #295347 !important;
+  color:white !important;
+}
+.removeAllComp{
+  background-color: #185c49 !important;
+  color:white !important;
+}
+.removeAllComp:hover{
+  background-color: #238469 !important;
+  color:white !important;
+}
+.todoForm input{
+  background-color: rgb(124, 224, 169);
+  border-radius: 50px !important;
+  border: none;
+  height: 3.5rem;
+  font-size: 1.5rem;
+
+}
+
+.todoForm input:focus{
+  box-shadow:0 0 0.25rem rgb(24 135 72);
+  background-color: rgb(114, 205, 155);
+  color:rgb(5 54 17);
+}
+
+.todoForm .addBtn{
+  background-color: #34a585;
+  color:white;
+  font-size: 1.3rem;
+border-radius: 10px !important;
+}
+
+.todoForm .addBtn:hover{
+  background-color: #47C5A1;
+  color: white;
+}
+
+
+.todoTask .row .todoData{
+  font-size: 1.5rem;
+  height: 2.8rem;
+  background-color: #164c16;
+    color: white;
+    border-radius: 50px  !important;
+    box-shadow: 0px 0px 13rem 5px rgb(255 255 255);
+    cursor: pointer;
+}
+.todoTask .row .delete{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  height: 2.8rem;
+    color: white;
+    border-radius: 50px !important;
+    
+}
